@@ -13,7 +13,7 @@ This project integrates voice cloning using [Tortoise TTS](https://github.com/ne
 
 You can try this project directly on Kaggle without any local setup:
 
-**[Open in Kaggle →]([(https://www.kaggle.com/code/parihasakreddy/voiceclone-lipsync-ipynb)](https://www.kaggle.com/code/parihasakreddy/voiceclone-lipsync-ipynb))**
+**[Open in Kaggle →][(https://www.kaggle.com/code/parihasakreddy/voiceclone-lipsync-ipynb)](https://www.kaggle.com/code/parihasakreddy/voiceclone-lipsync-ipynb))**
 
 **Notes:**
 - Initial loading may take approximately 3 minutes.
