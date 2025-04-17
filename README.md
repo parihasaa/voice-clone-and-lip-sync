@@ -7,6 +7,45 @@
 ## Project Overview
 This project integrates voice cloning using [Tortoise TTS](https://github.com/neonbjb/tortoise-tts) and lip-syncing using [Wav2Lip](https://github.com/Rudrabha/Wav2Lip) into a single Gradio interface. The user can input a reference audio and text to clone a voice, and optionally sync the generated audio to a video.
 
+
+## Problem Statement
+
+### Key Challenges in Voice Dubbing
+
+1. **Lip-Sync Inaccuracy**  
+   Existing solutions struggle to precisely align phoneme timing with viseme formations, resulting in observable desynchronization between audio and video streams.
+
+2. **Voice Characteristic Preservation**  
+   Current voice cloning systems often fail to maintain:
+   - Speaker identity features (timbre, pitch contours)
+   - Emotional prosody
+   - Language-specific articulatory patterns
+
+3. **Computational Requirements**  
+   High-fidelity neural voice cloning and lip-sync typically demand:
+   - Specialized GPU hardware
+   - Complex pipeline orchestration
+   - Manual post-processing
+
+### Technical Approach
+
+Our implementation addresses these challenges through:
+
+1. **Precision Lip-Synchronization**  
+   Wav2Lip's adversarial framework generates frame-accurate mouth movements conditioned on Mel-frequency cepstral coefficients.
+
+2. **Context-Aware Voice Cloning**  
+   Tortoise TTS employs:
+   - Reference encoder for speaker embedding
+   - Diffusion-based prosody modeling
+   - Attention-based duration prediction
+
+3. **Optimized Inference Pipeline**  
+   Modular architecture enables:
+   - Hardware-agnostic execution
+   - Batch processing capabilities
+   - Quality-time tradeoff parameters
+
 ## Features
 
 - Voice cloning using Tortoise TTS with reference audio and input text
