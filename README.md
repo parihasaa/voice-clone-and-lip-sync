@@ -13,7 +13,7 @@ This project integrates voice cloning using [Tortoise TTS](https://github.com/ne
 
 You can try this project directly on Kaggle without any local setup:
 
-**[Open in Kaggle →](https://www.kaggle.com/YOUR_USERNAME/YOUR_NOTEBOOK_NAME)**
+**[Open in Kaggle →]([(https://www.kaggle.com/code/parihasakreddy/voiceclone-lipsync-ipynb)](https://www.kaggle.com/code/parihasakreddy/voiceclone-lipsync-ipynb))**
 
 **Notes:**
 - Initial loading may take approximately 3 minutes.
@@ -21,7 +21,7 @@ You can try this project directly on Kaggle without any local setup:
 - Voice cloning typically takes 2–3 minutes for short text.
 - Lip-syncing may not yield good results for very short voice samples. For best results, test lip-syncing with longer audio.
 - Alternatively, lip-syncing can be tested independently using this notebook:  
-  **[Wav2Lip public notebook →](https://www.kaggle.com/USERNAME/wav2lip-notebook-link)**
+  **[Wav2Lip public notebook →][(https://www.kaggle.com/USERNAME/wav2lip-notebook-link](https://www.kaggle.com/code/parihasakreddy/lipsync-only))**
 
 ## Usage
 
