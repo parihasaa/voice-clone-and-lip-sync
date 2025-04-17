@@ -33,8 +33,8 @@ You can try this project directly on Kaggle without any local setup:
 ### Clone and run locally
 
 ```bash
-git clone https://github.com/parihasaa/voice-clone-lipsync.git
+git clone https://github.com/parihasaa/voice-clone-and-lip-sync.git
 cd voice-clone-lipsync
-git clone https://github.com/Rudrabha/Wav2Lip
+git clone https://github.com/Rudrabha/Wav2Lip.git
 pip install -r requirements.txt
 python app.py
