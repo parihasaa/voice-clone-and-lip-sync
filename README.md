@@ -1,7 +1,7 @@
 # Voice Cloning and Lip Syncing with Tortoise TTS and Wav2Lip
 
 
-![Project Banner](https://via.placeholder.com/800x200?text=Voice+Cloning+%26+Lip+Syncing+Pipeline)  
+![Gradio Interface](./images/ui-preview.png)
 *Seamless integration of voice cloning and lip synchronization technologies*
 
 ## Project Overview
