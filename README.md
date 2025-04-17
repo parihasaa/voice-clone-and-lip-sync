@@ -1,5 +1,10 @@
 # Voice Cloning and Lip Syncing with Tortoise TTS and Wav2Lip
 
+
+![Project Banner](https://via.placeholder.com/800x200?text=Voice+Cloning+%26+Lip+Syncing+Pipeline)  
+*Seamless integration of voice cloning and lip synchronization technologies*
+
+## Project Overview
 This project integrates voice cloning using [Tortoise TTS](https://github.com/neonbjb/tortoise-tts) and lip-syncing using [Wav2Lip](https://github.com/Rudrabha/Wav2Lip) into a single Gradio interface. The user can input a reference audio and text to clone a voice, and optionally sync the generated audio to a video.
 
 ## Features
@@ -28,7 +33,8 @@ You can try this project directly on Kaggle without any local setup:
 ### Clone and run locally
 
 ```bash
-git clone https://github.com/yourusername/voice-clone-lipsync.git
+git clone https://github.com/parihasaa/voice-clone-lipsync.git
 cd voice-clone-lipsync
+git clone https://github.com/Rudrabha/Wav2Lip
 pip install -r requirements.txt
 python app.py
